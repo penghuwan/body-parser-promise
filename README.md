@@ -1,10 +1,11 @@
 # body-parser-promise
 Promise风格的bodyparser，接收request对象做为参数，返回解析后的body对象，返回结果前做了charset转换,解压缩,内容编码转换等处理
 # Usage 
+1. 安装依赖
 ```
 npm i body-parser-promise
 ```
-然后
+2. 使用
 ```
 const getRequestBody = require('body-parser-promise')
 
