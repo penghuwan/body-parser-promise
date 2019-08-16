@@ -1,6 +1,17 @@
 # body-parser-promise
 Promise风格的bodyparser，接收request对象做为参数，返回解析后的body对象，返回结果前做了charset转换,解压缩,内容编码转换等处理
-
+# Usage 
+```
+npm i body-parser-promise
+```
+然后
+```
+const getRequestBody = require('body-parser-promise')
+http.createServer(async (req,res) => {
+  const body = await getRequestBody(req, res);
+})
+```
+```
 # Demo  
 如果你想看看这个demo是怎么运作的，你可以
 1. clone项目
