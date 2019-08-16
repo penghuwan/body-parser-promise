@@ -2,7 +2,7 @@
   "name": "body-parser-promise",
   "version": "1.0.0",
   "description": "接收request对象，返回解析后的body对象，返回结果前做了charset转换,解压缩,内容编码转换等处理",
-  "main": "server.js",
+  "main": "lib/index.js",
   "dependencies": {
     "content-type": "^1.0.4",
     "iconv-lite": "^0.5.0",
