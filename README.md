@@ -7,13 +7,12 @@ npm i body-parser-promise
 然后
 ```
 const getRequestBody = require('body-parser-promise')
-http.createServer(async (req,res) => {
 
-  const body = await getRequestBody(req, res);
-  
+http.createServer(async (req,res) => {
   // 如果Content-Type为application/www-form-urlencode或者application/json,则body是解析后的对象
   // 如果Content-Type为text/plain，则body是一个字符串
   // 具体的内容输出参考下面的demo
+  const body = await getRequestBody(req, res);
 })
 ```
 # Demo  
