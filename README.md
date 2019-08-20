@@ -34,7 +34,7 @@ node server.js // Node.js服务端，负责解析每个请求的request.body，�
 ```
 4. 在浏览器端刷新localhost:3000页面
 5. 最后你可在server.js的进程控制台中看到输出：
-```js
+```
 // 来自client.js客户端发送的压缩body
 我是一个被Gzip压缩后的数据 
 // 来自前端请求，连续三次fetch的body
