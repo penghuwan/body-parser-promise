@@ -1,6 +1,10 @@
 ![](https://img.shields.io/badge/release-1.0.0-brightgreen)
 ![](https://img.shields.io/badge/syntax-ES6-blue)
 ![](https://img.shields.io/badge/style-Promise-orange)
+## 个人知乎专栏文章
+[bodyparser实现原理解析](https://zhuanlan.zhihu.com/p/78482006)
+包含对代码设计的详细注解
+
 # body-parser-promise
 Promise风格的bodyparser，接收request对象做为参数，返回解析后的body对象，返回结果前做了charset转换,解压缩,内容编码转换等处理
 # Usage 
